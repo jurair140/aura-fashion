@@ -1,0 +1,6 @@
+-> in the navbar line 57 we use dynamic className {}  to add the class based on the condition. If the user is clicked the menu icon above
+   that then the div with the className will be active
+
+-> using comments  to explain the code is a good practice. It helps other developers to understand the code easily. /
+
+-> in context we created a shopContext file and in it we creates a context and context provider.
