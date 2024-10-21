@@ -4,3 +4,6 @@
 -> using comments  to explain the code is a good practice. It helps other developers to understand the code easily. /
 
 -> in context we created a shopContext file and in it we creates a context and context provider.
+
+-> in the SearchBars we we used a ternary operator for if the show search will true then only the SearchBars components we be executed
+
