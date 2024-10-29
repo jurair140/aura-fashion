@@ -18,7 +18,7 @@ function Contact() {
         <p className='text-gray-500'>Phone : +91 8975578348 <br />Email : aurafashion@gmail.com</p>
         <p className='font-semibold text-xl text-gray-600'>Careers at Forever</p>
         <p className='text-gray-500'>Learn  more about our company culture and open positions</p>
-
+        <button>Explore Our Career</button>
       </div>
    </div>
 
