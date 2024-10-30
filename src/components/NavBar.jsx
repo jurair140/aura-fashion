@@ -42,7 +42,7 @@ function NavBar() {
             <div className="group-hover:block hidden absolute dropdown-menu right-0 pt-4">
               <div className='flex flex-col gap-2 px-5 py-3 bg-slate-100 text-gray-500 rounded'>
                 <p className='cursor-pointer hover:text-black'>My Profile</p>
-                <p className='cursor-pointer hover:text-black'>Order</p>
+                <p className='cursor-pointer hover:text-black'><Link to={'/orders'}>Order</Link></p>
                 <p className='cursor-pointer hover:text-black'>LogOut</p>
               </div>
             </div>

@@ -1,6 +1,7 @@
 import React from 'react'
 import Title from '../components/Title'
 import { assets } from '../assets/assets'
+import NewsLetter from '../components/NewsLetters'
 
 function Contact() {
   return (
@@ -18,9 +19,12 @@ function Contact() {
         <p className='text-gray-500'>Phone : +91 8975578348 <br />Email : aurafashion@gmail.com</p>
         <p className='font-semibold text-xl text-gray-600'>Careers at Forever</p>
         <p className='text-gray-500'>Learn  more about our company culture and open positions</p>
-        <button className='border border-black px-8 py-4'>Explore Our Career</button>
+        <button className='border border-black px-8 py-4 text-sm hover:bg-black hover:text-white transition-all duration-500'>Explore Our Career</button>
+
       </div>
    </div>
+
+   <NewsLetter/> 
 
 
    </>
