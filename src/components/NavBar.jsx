@@ -13,7 +13,7 @@ function NavBar() {
   return( 
     <>
      <div className='flex items-center justify-between py-5 font-medium'>
-      <img src={assets.logo} alt="" className='w-36'/>
+        <h1 className='unlock-regular'>AURA FASHOIN</h1>
        <ul className='hidden sm:flex gap-5 text-sm text-grey-700'>
       
         <NavLink className='flex flex-col items-center gap-1' to='/'>
