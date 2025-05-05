@@ -1,10 +1,9 @@
-import p_img1 from './p_img1.png'
-import p_img2_1 from './p_img2_1.png'
-import p_img2_2 from './p_img2_2.png'
-import p_img2_3 from './p_img2_3.png'
-import p_img2_4 from './p_img2_4.png'
-import p_img3 from './p_img3.png'
-import p_img4 from './p_img4.png'
+import p_img1 from './p_img1.webp'
+import p_img2_1 from './p_img2_1.webp'
+import p_img2_2 from './p_img2_2.webp'
+import p_img2_3 from './p_img2_3.webp'
+import p_img3 from './p_img3.jpg'
+import p_img4 from './p_img4.webp'
 import p_img5 from './p_img5.png'
 import p_img6 from './p_img6.png'
 import p_img7 from './p_img7.png'
@@ -73,10 +72,12 @@ import contact_img from './contact_img.png'
 import razorpay_logo from './razorpay_logo.png'
 import stripe_logo from './stripe_logo.png'
 import cross_icon from './cross_icon.png'
+import hero_video from './hero-video.mp4'
 
 export const assets = {
     logo,
     hero_img,
+    hero_video,
     cart_icon,
     dropdown_icon,
     exchange_icon,
@@ -113,7 +114,7 @@ export const products = [
         name: "Men Round Neck Pure Cotton T-shirt",
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 200,
-        image: [p_img2_1,p_img2_2,p_img2_3,p_img2_4],
+        image: [p_img2_1,p_img2_2,p_img2_3],
         category: "Men",
         subCategory: "Topwear",
         sizes: ["M", "L", "XL"],
