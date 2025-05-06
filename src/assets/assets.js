@@ -11,6 +11,7 @@ import p_img7 from './p_img7.webp'
 import p_img8 from './p_img8.webp'
 import p_img9 from './p_img9.jpg'
 import p_img10 from './p_img10.webp'
+import p_img12 from './p_img12.jpg'
 import p_img21 from './p_img21.jpg'
 import p_img22 from './p_img22.jpg'
 import p_img23 from './p_img23.jpg'
@@ -71,7 +72,10 @@ export const assets = {
     contact_img,
     razorpay_logo,
     stripe_logo,
-    cross_icon
+    cross_icon,
+    p_img12,
+    p_img7
+
 }
 
 export const products = [
