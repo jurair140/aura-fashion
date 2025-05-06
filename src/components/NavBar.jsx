@@ -24,6 +24,10 @@ function NavBar() {
           <p>COLLECTION</p>
           <hr className='w-2/4 border-none h-[1.5px] bg-gray-700 hidden'/>
         </NavLink>
+        <NavLink className='flex flex-col items-center gap-1' to='/limited'>
+          <p>LIMITED DEALS</p>
+          <hr className='w-2/4 border-none h-[1.5px] bg-gray-700 hidden'/>
+        </NavLink>
         <NavLink className='flex flex-col items-center gap-1' to='/about'>
           <p>ABOUT</p>
           <hr className='w-2/4 border-none h-[1.5px] bg-gray-700 hidden'/>

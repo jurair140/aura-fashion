@@ -1,58 +1,36 @@
 import p_img1 from './p_img1.webp'
+import p_vid2 from './p_vid2.mp4'
 import p_img2_1 from './p_img2_1.webp'
 import p_img2_2 from './p_img2_2.webp'
 import p_img2_3 from './p_img2_3.webp'
 import p_img3 from './p_img3.jpg'
 import p_img4 from './p_img4.webp'
-import p_img5 from './p_img5.png'
-import p_img6 from './p_img6.png'
-import p_img7 from './p_img7.png'
-import p_img8 from './p_img8.png'
-import p_img9 from './p_img9.png'
-import p_img10 from './p_img10.png'
-import p_img11 from './p_img11.png'
-import p_img12 from './p_img12.png'
-import p_img13 from './p_img13.png'
-import p_img14 from './p_img14.png'
-import p_img15 from './p_img15.png'
-import p_img16 from './p_img16.png'
-import p_img17 from './p_img17.png'
-import p_img18 from './p_img18.png'
-import p_img19 from './p_img19.png'
-import p_img20 from './p_img20.png'
-import p_img21 from './p_img21.png'
-import p_img22 from './p_img22.png'
-import p_img23 from './p_img23.png'
-import p_img24 from './p_img24.png'
-import p_img25 from './p_img25.png'
-import p_img26 from './p_img26.png'
-import p_img27 from './p_img27.png'
-import p_img28 from './p_img28.png'
-import p_img29 from './p_img29.png'
-import p_img30 from './p_img30.png'
-import p_img31 from './p_img31.png'
-import p_img32 from './p_img32.png'
-import p_img33 from './p_img33.png'
-import p_img34 from './p_img34.png'
-import p_img35 from './p_img35.png'
-import p_img36 from './p_img36.png'
-import p_img37 from './p_img37.png'
-import p_img38 from './p_img38.png'
-import p_img39 from './p_img39.png'
-import p_img40 from './p_img40.png'
-import p_img41 from './p_img41.png'
-import p_img42 from './p_img42.png'
-import p_img43 from './p_img43.png'
-import p_img44 from './p_img44.png'
-import p_img45 from './p_img45.png'
-import p_img46 from './p_img46.png'
-import p_img47 from './p_img47.png'
-import p_img48 from './p_img48.png'
-import p_img49 from './p_img49.png'
-import p_img50 from './p_img50.png'
-import p_img51 from './p_img51.png'
-import p_img52 from './p_img52.png'
-
+import p_img5 from './p_img5.jpg'
+import p_img6 from './p_img6.webp'
+import p_img7 from './p_img7.webp'
+import p_img8 from './p_img8.webp'
+import p_img9 from './p_img9.jpg'
+import p_img10 from './p_img10.webp'
+import p_img21 from './p_img21.jpg'
+import p_img22 from './p_img22.jpg'
+import p_img23 from './p_img23.jpg'
+import p_img24 from './p_img24.jpg'
+import p_img25 from './p_img25.jpg'
+import p_img26 from './p_img26.jpg'
+import p_img27 from './p_img27.jpg'
+import p_img28 from './p_img28.jpg'
+import p_img29 from './p_img29.jpg'
+import p_img30 from './p_img30.jpg'
+import p_img31 from './p_img31.jpg'
+import p_img32 from './p_img32.jpg'
+import p_img33 from './p_img33.jpg'
+import p_img34 from './p_img34.jpg'
+import p_img35 from './p_img35.jpg'
+import p_img36 from './p_img36.jpg'
+import p_img37 from './p_img37.jpg'
+import p_img38 from './p_img38.jpg'
+import p_img39 from './p_img39.jpg'
+import p_img40 from './p_img40.jpg'
 
 import logo from './logo.png'
 import hero_img from './hero_img.png'
@@ -98,28 +76,40 @@ export const assets = {
 
 export const products = [
     {
-        _id: "aaaaa",
-        name: "Classic Leather Loafers",
-        description: "Premium handcrafted leather loafers offering a sleek design, comfortable fit, and long-lasting durability—perfect for everyday elegance.",
+        _id: "aaabc",
+        name: "Women Crossbody Bag",
+        description: "Compact and stylish crossbody bag, perfect for hands-free convenience.",
         price: 2499,
-        image: [p_img1],
+        image: [p_img29],
         category: "Women",
-        subCategory: "Footwear",
-        sizes: ["36", "37", "38", "39", "40"],
-        date: 1716634345448,
-        bestseller: false
+        subCategory: "Bags",
+        sizes: ["One Size"],
+        date: 1716643145448,
+        limited: false
     },
     {
-        _id: "aaaab",
-        name: "Men's Formal Leather Shoes",
-        description: "Elegant and durable leather shoes designed for formal wear, crafted with fine stitching and cushioned insoles for all-day comfort.",
-        price: 3299,
-        image: [p_img2_1, p_img2_2, p_img2_3],
+        _id: "aaaag",
+        name: "Men Casual Leather Sneakers",
+        description: "Stylish leather sneakers with a relaxed fit, perfect for everyday wear with durable soles and breathable lining.",
+        price: 2799,
+        image: [p_img7],
         category: "Men",
         subCategory: "Footwear",
         sizes: ["40", "41", "42", "43"],
-        date: 1716621345448,
-        bestseller: true
+        date: 1716621542448,
+        limited: false
+    },
+    {
+        _id: "aaaba",
+        name: "Girls Fashion Backpack",
+        description: "Trendy backpack for kids, combining style and functionality for school or travel.",
+        price: 1599,
+        image: [p_img27],
+        category: "Kids",
+        subCategory: "Bags",
+        sizes: ["One Size"],
+        date: 1716640945448,
+        limited: false
     },
     {
         _id: "aaaac",
@@ -131,7 +121,175 @@ export const products = [
         subCategory: "Footwear",
         sizes: ["30", "32", "34"],
         date: 1716234545448,
-        bestseller: false
+        limited: false
+    },
+    {
+        _id: "aaabn",
+        name: "Kid Stylish Leather Belt",
+        description: "Trendy leather belt for kids, adjustable and comfortable for daily wear.",
+        price: 799,
+        image: [p_img40],
+        category: "Kids",
+        subCategory: "Belt",
+        sizes: ["S", "M", "L"],
+        date: 1716655245448,
+        limited: false
+    },
+    {
+        _id: "aaaau",
+        name: "Women Elegant Leather Wallet",
+        description: "Compact and luxurious leather wallet with multiple card slots and a sleek design.",
+        price: 1999,
+        image: [p_img21],
+        category: "Women",
+        subCategory: "Wallet",
+        sizes: ["One Size"],
+        date: 1716634345448,
+        limited: false
+    },
+    {
+        _id: "aaaay",
+        name: "Girls Trendy Sling Bag",
+        description: "Stylish sling bag for kids, lightweight and perfect for carrying essentials.",
+        price: 999,
+        image: [p_img25],
+        category: "Kids",
+        subCategory: "Bags",
+        sizes: ["One Size"],
+        date: 1716638745448,
+        limited: true
+    },
+    {
+        _id: "aaabf",
+        name: "Men Trifold Leather Wallet",
+        description: "Spacious trifold wallet with extra compartments for cards and cash.",
+        price: 2399,
+        image: [p_img32],
+        category: "Men",
+        subCategory: "Wallet",
+        sizes: ["One Size"],
+        date: 1716646445448,
+        limited: false
+    },
+    {
+        _id: "aaaab",
+        name: "Men's Formal Leather Shoes",
+        description: "Elegant and durable leather shoes designed for formal wear, crafted with fine stitching and cushioned insoles for all-day comfort.",
+        price: 3299,
+        image: [p_vid2, p_img2_1, p_img2_2, p_img2_3],
+        category: "Men",
+        subCategory: "Footwear",
+        sizes: ["40", "41", "42", "43"],
+        date: 1716621345448,
+        limited: true
+    },
+    {
+        _id: "aaabh",
+        name: "Women Shoulder Bag",
+        description: "Elegant shoulder bag with adjustable straps, ideal for daily use.",
+        price: 2699,
+        image: [p_img34],
+        category: "Women",
+        subCategory: "Bags",
+        sizes: ["One Size"],
+        date: 1716648645448,
+        limited: false
+    },
+    {
+        _id: "aaabl",
+        name: "Men Casual Leather Belt",
+        description: "Versatile leather belt with a rugged finish, suitable for everyday wear.",
+        price: 999,
+        image: [p_img38],
+        category: "Men",
+        subCategory: "Belt",
+        sizes: ["S", "M", "L"],
+        date: 1716653045448,
+        limited: false
+    },
+    {
+        _id: "aaaaz",
+        name: "Women Classic Leather Wallet",
+        description: "Elegant leather wallet with organized compartments for cards and cash.",
+        price: 1899,
+        image: [p_img26],
+        category: "Women",
+        subCategory: "Wallet",
+        sizes: ["One Size"],
+        date: 1716639845448,
+        limited: true
+    },
+    {
+        _id: "aaabg",
+        name: "Girls Sparkle Backpack",
+        description: "Glittery backpack for kids, perfect for school or fun outings.",
+        price: 1399,
+        image: [p_img33],
+        category: "Kids",
+        subCategory: "Bags",
+        sizes: ["One Size"],
+        date: 1716647545448,
+        limited: false
+    },
+    {
+        _id: "aaabe",
+        name: "Men Bifold Leather Wallet",
+        description: "Durable bifold wallet with a slim profile and multiple card slots.",
+        price: 2099,
+        image: [p_img31],
+        category: "Men",
+        subCategory: "Wallet",
+        sizes: ["One Size"],
+        date: 1716645345448,
+        limited: false
+    },
+    {
+        _id: "aaaai",
+        name: "Women Strappy Heeled Sandals",
+        description: "Elegant heeled sandals with delicate leather straps, perfect for evening wear or special events.",
+        price: 2599,
+        image: [p_img9],
+        category: "Women",
+        subCategory: "Footwear",
+        sizes: ["36", "37", "38", "39", "40"],
+        date: 1716621235448,
+        limited: true
+    },
+    {
+        _id: "aaabk",
+        name: "Women Satchel Bag",
+        description: "Structured satchel bag with a timeless design, suitable for work or leisure.",
+        price: 2899,
+        image: [p_img37],
+        category: "Women",
+        subCategory: "Bags",
+        sizes: ["One Size"],
+        date: 1716651945448,
+        limited: false
+    },
+    {
+        _id: "aaaaf",
+        name: "Girls Sparkly Sneakers",
+        description: "Vibrant and glittery sneakers for kids, featuring cushioned soles and durable materials for playful adventures.",
+        price: 1499,
+        image: [p_img6],
+        category: "Kids",
+        subCategory: "Footwear",
+        sizes: ["28", "30", "32", "34"],
+        date: 1716623423448,
+        limited: true
+    },
+    {
+        _id: "aaaav",
+        name: "Women Chic Leather Belt",
+        description: "Fashionable leather belt with a modern buckle, ideal for casual or formal looks.",
+        price: 1199,
+        image: [p_img22],
+        category: "Women",
+        subCategory: "Belt",
+        sizes: ["S", "M", "L"],
+        date: 1716635445448,
+        limited: true
     },
     {
         _id: "aaaad",
@@ -140,586 +298,141 @@ export const products = [
         price: 3899,
         image: [p_img4],
         category: "Men",
-        subCategory: "Boots",
+        subCategory: "Footwear",
         sizes: ["41", "42", "43", "44"],
         date: 1716621345448,
-        bestseller: true
-    },
-    
-    {
-        _id: "aaaae",
-        name: "Women Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 130,
-        image: [p_img5],
-        category: "Women",
-        subCategory: "Topwear",
-        sizes: ["M", "L", "XL"],
-        date: 1716622345448,
-        bestseller: false
-    },
-    {
-        _id: "aaaaf",
-        name: "Girls Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 140,
-        image: [p_img6],
-        category: "Kids",
-        subCategory: "Topwear",
-        sizes: ["S", "L", "XL"],
-        date: 1716623423448,
-        bestseller: true
-    },
-    {
-        _id: "aaaag",
-        name: "Men Tapered Fit Flat-Front Trousers",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 190,
-        image: [p_img7],
-        category: "Men",
-        subCategory: "Bottomwear",
-        sizes: ["S", "L", "XL"],
-        date: 1716621542448,
-        bestseller: false
-    },
-    {
-        _id: "aaaah",
-        name: "Men Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 140,
-        image: [p_img8],
-        category: "Men",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716622345448,
-        bestseller: false
-    },
-    {
-        _id: "aaaai",
-        name: "Girls Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 100,
-        image: [p_img9],
-        category: "Kids",
-        subCategory: "Topwear",
-        sizes: ["M", "L", "XL"],
-        date: 1716621235448,
-        bestseller: false
-    },
-    {
-        _id: "aaaaj",
-        name: "Men Tapered Fit Flat-Front Trousers",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 110,
-        image: [p_img10],
-        category: "Men",
-        subCategory: "Bottomwear",
-        sizes: ["S", "L", "XL"],
-        date: 1716622235448,
-        bestseller: false
-    },
-    {
-        _id: "aaaak",
-        name: "Men Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 120,
-        image: [p_img11],
-        category: "Men",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L"],
-        date: 1716623345448,
-        bestseller: false
-    },
-    {
-        _id: "aaaal",
-        name: "Men Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 150,
-        image: [p_img12],
-        category: "Men",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716624445448,
-        bestseller: false
-    },
-    {
-        _id: "aaaam",
-        name: "Women Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 130,
-        image: [p_img13],
-        category: "Women",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716625545448,
-        bestseller: false
-    },
-    {
-        _id: "aaaan",
-        name: "Boy Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 160,
-        image: [p_img14],
-        category: "Kids",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716626645448,
-        bestseller: false
-    },
-    {
-        _id: "aaaao",
-        name: "Men Tapered Fit Flat-Front Trousers",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 140,
-        image: [p_img15],
-        category: "Men",
-        subCategory: "Bottomwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716627745448,
-        bestseller: false
-    },
-    {
-        _id: "aaaap",
-        name: "Girls Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 170,
-        image: [p_img16],
-        category: "Kids",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716628845448,
-        bestseller: false
-    },
-    {
-        _id: "aaaaq",
-        name: "Men Tapered Fit Flat-Front Trousers",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 150,
-        image: [p_img17],
-        category: "Men",
-        subCategory: "Bottomwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716629945448,
-        bestseller: false
-    },
-    {
-        _id: "aaaar",
-        name: "Boy Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 180,
-        image: [p_img18],
-        category: "Kids",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716631045448,
-        bestseller: false
-    },
-    {
-        _id: "aaaas",
-        name: "Boy Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 160,
-        image: [p_img19],
-        category: "Kids",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716632145448,
-        bestseller: false
-    },
-    {
-        _id: "aaaat",
-        name: "Women Palazzo Pants with Waist Belt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 190,
-        image: [p_img20],
-        category: "Women",
-        subCategory: "Bottomwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716633245448,
-        bestseller: false
-    },
-    {
-        _id: "aaaau",
-        name: "Women Zip-Front Relaxed Fit Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 170,
-        image: [p_img21],
-        category: "Women",
-        subCategory: "Winterwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716634345448,
-        bestseller: false
-    },
-    {
-        _id: "aaaav",
-        name: "Women Palazzo Pants with Waist Belt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 200,
-        image: [p_img22],
-        category: "Women",
-        subCategory: "Bottomwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716635445448,
-        bestseller: false
-    },
-    {
-        _id: "aaaaw",
-        name: "Boy Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 180,
-        image: [p_img23],
-        category: "Kids",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716636545448,
-        bestseller: false
-    },
-    {
-        _id: "aaaax",
-        name: "Boy Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 210,
-        image: [p_img24],
-        category: "Kids",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716637645448,
-        bestseller: false
-    },
-    {
-        _id: "aaaay",
-        name: "Girls Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 190,
-        image: [p_img25],
-        category: "Kids",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716638745448,
-        bestseller: false
-    },
-    {
-        _id: "aaaaz",
-        name: "Women Zip-Front Relaxed Fit Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 220,
-        image: [p_img26],
-        category: "Women",
-        subCategory: "Winterwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716639845448,
-        bestseller: false
-    },
-    {
-        _id: "aaaba",
-        name: "Girls Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 200,
-        image: [p_img27],
-        category: "Kids",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716640945448,
-        bestseller: false
-    },
-    {
-        _id: "aaabb",
-        name: "Men Slim Fit Relaxed Denim Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 230,
-        image: [p_img28],
-        category: "Men",
-        subCategory: "Winterwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716642045448,
-        bestseller: false
-    },
-    {
-        _id: "aaabc",
-        name: "Women Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 210,
-        image: [p_img29],
-        category: "Women",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716643145448,
-        bestseller: false
-    },
-    {
-        _id: "aaabd",
-        name: "Girls Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 240,
-        image: [p_img30],
-        category: "Kids",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716644245448,
-        bestseller: false
-    },
-    {
-        _id: "aaabe",
-        name: "Men Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 220,
-        image: [p_img31],
-        category: "Men",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716645345448,
-        bestseller: false
-    },
-    {
-        _id: "aaabf",
-        name: "Men Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 250,
-        image: [p_img32],
-        category: "Men",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716646445448,
-        bestseller: false
-    },
-    {
-        _id: "aaabg",
-        name: "Girls Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 230,
-        image: [p_img33],
-        category: "Kids",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716647545448,
-        bestseller: false
-    },
-    {
-        _id: "aaabh",
-        name: "Women Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 260,
-        image: [p_img34],
-        category: "Women",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716648645448,
-        bestseller: false
-    },
-    {
-        _id: "aaabi",
-        name: "Women Zip-Front Relaxed Fit Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 240,
-        image: [p_img35],
-        category: "Women",
-        subCategory: "Winterwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716649745448,
-        bestseller: false
+        limited: true
     },
     {
         _id: "aaabj",
-        name: "Women Zip-Front Relaxed Fit Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 270,
+        name: "Women Compact Leather Wallet",
+        description: "Small yet functional leather wallet, perfect for on-the-go convenience.",
+        price: 1699,
         image: [p_img36],
         category: "Women",
-        subCategory: "Winterwear",
-        sizes: ["S", "M", "L", "XL"],
+        subCategory: "Wallet",
+        sizes: ["One Size"],
         date: 1716650845448,
-        bestseller: false
+        limited: false
     },
     {
-        _id: "aaabk",
-        name: "Women Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 250,
-        image: [p_img37],
-        category: "Women",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716651945448,
-        bestseller: false
+        _id: "aaaaw",
+        name: "Boy Travel Duffel Bag",
+        description: "Spacious duffel bag for kids, perfect for sports or travel with durable handles.",
+        price: 1699,
+        image: [p_img23],
+        category: "Kids",
+        subCategory: "Bags",
+        sizes: ["One Size"],
+        date: 1716636545448,
+        limited: false
     },
     {
-        _id: "aaabl",
-        name: "Men Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 280,
-        image: [p_img38],
+        _id: "aaabb",
+        name: "Men Premium Leather Wallet",
+        description: "Sleek leather wallet for men, with RFID protection and minimalist design.",
+        price: 2299,
+        image: [p_img28],
         category: "Men",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716653045448,
-        bestseller: false
+        subCategory: "Wallet",
+        sizes: ["One Size"],
+        date: 1716642045448,
+        limited: false
+    },
+    {
+        _id: "aaaaj",
+        name: "Men Formal Oxfords",
+        description: "Polished leather oxford shoes with intricate brogue detailing, perfect for business or formal events.",
+        price: 3499,
+        image: [p_img10],
+        category: "Men",
+        subCategory: "Footwear",
+        sizes: ["40", "41", "42", "43"],
+        date: 1716622235448,
+        limited: false
+    },
+    {
+        _id: "aaabd",
+        name: "Girls Mini Backpack",
+        description: "Cute mini backpack for kids, ideal for short trips or casual outings.",
+        price: 1199,
+        image: [p_img30],
+        category: "Kids",
+        subCategory: "Bags",
+        sizes: ["One Size"],
+        date: 1716644245448,
+        limited: false
+    },
+    {
+        _id: "aaaaa",
+        name: "Classic Leather Loafers",
+        description: "Premium handcrafted leather loafers offering a sleek design, comfortable fit, and long-lasting durability—perfect for everyday elegance.",
+        price: 2499,
+        image: [p_img1],
+        category: "Women",
+        subCategory: "Footwear",
+        sizes: ["36", "37", "38", "39", "40"],
+        date: 1716634345448,
+        limited: false
+    },
+    {
+        _id: "aaaah",
+        name: "Women Ankle Boots",
+        description: "Trendy leather ankle boots with a sleek design, featuring a side zipper and cushioned insoles for all-day comfort.",
+        price: 3499,
+        image: [p_img8],
+        category: "Women",
+        subCategory: "Footwear",
+        sizes: ["36", "37", "38", "39", "40"],
+        date: 1716622345448,
+        limited: false
+    },
+    {
+        _id: "aaabi",
+        name: "Women Slim Leather Wallet",
+        description: "Minimalist leather wallet with a sleek design and secure zipper.",
+        price: 1799,
+        image: [p_img35],
+        category: "Women",
+        subCategory: "Wallet",
+        sizes: ["One Size"],
+        date: 1716649745448,
+        limited: false
+    },
+    {
+        _id: "aaaax",
+        name: "Boy School Backpack",
+        description: "Ergonomic backpack for kids, designed for school with padded straps and laptop sleeve.",
+        price: 1799,
+        image: [p_img24],
+        category: "Kids",
+        subCategory: "Bags",
+        sizes: ["One Size"],
+        date: 1716637645448,
+        limited: false
     },
     {
         _id: "aaabm",
-        name: "Men Printed Plain Cotton Shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 260,
+        name: "Men Formal Leather Belt",
+        description: "Elegant leather belt with a minimalist buckle, perfect for formal attire.",
+        price: 1099,
         image: [p_img39],
         category: "Men",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
+        subCategory: "Belt",
+        sizes: ["S", "M", "L"],
         date: 1716654145448,
-        bestseller: false
+        limited: false
     },
     {
-        _id: "aaabn",
-        name: "Men Slim Fit Relaxed Denim Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 290,
-        image: [p_img40],
-        category: "Men",
-        subCategory: "Winterwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716655245448,
-        bestseller: false
-    },
-    {
-        _id: "aaabo",
-        name: "Men Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 270,
-        image: [p_img41],
-        category: "Men",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716656345448,
-        bestseller: false
-    },
-    {
-        _id: "aaabp",
-        name: "Boy Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 300,
-        image: [p_img42],
-        category: "Kids",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716657445448,
-        bestseller: true
-    },
-    {
-        _id: "aaabq",
-        name: "Kid Tapered Slim Fit Trouser",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 280,
-        image: [p_img43],
-        category: "Kids",
-        subCategory: "Bottomwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716658545448,
-        bestseller: false
-    },
-    {
-        _id: "aaabr",
-        name: "Women Zip-Front Relaxed Fit Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 310,
-        image: [p_img44],
+        _id: "aaaae",
+        name: "Women Elegant Leather Sandals",
+        description: "Chic leather sandals with a minimalist design, offering comfort and style for casual or semi-formal occasions.",
+        price: 1999,
+        image: [p_img5],
         category: "Women",
-        subCategory: "Winterwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716659645448,
-        bestseller: false
-    },
-    {
-        _id: "aaabs",
-        name: "Men Slim Fit Relaxed Denim Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 290,
-        image: [p_img45],
-        category: "Men",
-        subCategory: "Winterwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716660745448,
-        bestseller: false
-    },
-    {
-        _id: "aaabt",
-        name: "Men Slim Fit Relaxed Denim Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 320,
-        image: [p_img46],
-        category: "Men",
-        subCategory: "Winterwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716661845448,
-        bestseller: false
-    },
-    {
-        _id: "aaabu",
-        name: "Kid Tapered Slim Fit Trouser",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 300,
-        image: [p_img47],
-        category: "Kids",
-        subCategory: "Bottomwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716662945448,
-        bestseller: true
-    },
-    {
-        _id: "aaabv",
-        name: "Men Slim Fit Relaxed Denim Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 330,
-        image: [p_img48],
-        category: "Men",
-        subCategory: "Winterwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716664045448,
-        bestseller: false
-    },
-    {
-        _id: "aaabw",
-        name: "Kid Tapered Slim Fit Trouser",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 310,
-        image: [p_img49],
-        category: "Kids",
-        subCategory: "Bottomwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716665145448,
-        bestseller: false
-    },
-    {
-        _id: "aaabx",
-        name: "Kid Tapered Slim Fit Trouser",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 340,
-        image: [p_img50],
-        category: "Kids",
-        subCategory: "Bottomwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716666245448, bestseller: false
-    },
-    {
-        _id: "aaaby",
-        name: "Women Zip-Front Relaxed Fit Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 320,
-        image: [p_img51],
-        category: "Women",
-        subCategory: "Winterwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716667345448,
-        bestseller: false
-    },
-    {
-        _id: "aaabz",
-        name: "Men Slim Fit Relaxed Denim Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 350,
-        image: [p_img52],
-        category: "Men",
-        subCategory: "Winterwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716668445448,
-        bestseller: true
+        subCategory: "Footwear",
+        sizes: ["36", "37", "38", "39", "40"],
+        date: 1716622345448,
+        limited: false
     }
-
 ]

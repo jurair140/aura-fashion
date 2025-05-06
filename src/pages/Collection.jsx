@@ -122,15 +122,19 @@ function Collection() {
              <div className='flex flex-col gap-2 text-sm font-light text-gray-700'>
             
               <p className='flex gap-2'>
-                <input type="checkbox" className='w-3' value={'Topwear'} onChange={toogleSubCategory}/>Topwear
+                <input type="checkbox" className='w-3' value={'Footwear'} onChange={toogleSubCategory}/>Footwear
               </p>
             
               <p className='flex gap-2'>
-                <input type="checkbox" className='w-3' value={'Bottomwear'} onChange={toogleSubCategory}/>Bottomwear
+                <input type="checkbox" className='w-3' value={'Bags'} onChange={toogleSubCategory}/>Bags
               </p>
             
               <p className='flex gap-2'>
-                <input type="checkbox" className='w-3' value={'Winterwear'} onChange={toogleSubCategory}/>Winterwear
+                <input type="checkbox" className='w-3' value={'Belt'} onChange={toogleSubCategory}/>Belt
+              </p>
+
+              <p className='flex gap-2'>
+                <input type="checkbox" className='w-3' value={'Wallet'} onChange={toogleSubCategory}/>Wallet
               </p>
             
              </div>

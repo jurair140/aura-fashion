@@ -15,6 +15,7 @@ import Footer from './components/Footer'
 import SearchBars from './components/SearchBars'
 import { ToastContainer, toast } from 'react-toastify';
   import 'react-toastify/dist/ReactToastify.css';
+import LimitedDealPage from './pages/LimitedDealPage'
 
 
 
@@ -30,14 +31,16 @@ function App() {
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/product/:productId' element={<Product/>}/>
-{/* 
+
         <Route path='/collection' element={<Collection/>}/>
         <Route path='/about' element={<About/>}/>
         <Route path='/contact' element={<Contact/>}/>
         <Route path='cart' element={<Cart/>}/>
         <Route path='login' element={<Login/>}/>
         <Route path='place-order' element={<PlaceOrder/>}/>
-        <Route path='orders' element={<Orders/>}/> */}
+        <Route path='orders' element={<Orders/>}/>
+        <Route path='limited' element={<LimitedDealPage/>}/>
+
       </Routes>
       <Footer/>
       <ToastContainer/>
