@@ -3,7 +3,12 @@ import Title from '../components/Title';
 import { assets } from '../assets/assets';
 import NewsLetter from '../components/NewsLetters';
 
+
 function Contact() {
+
+
+
+
   return (
     <>
       {/* Contact Page Title */}

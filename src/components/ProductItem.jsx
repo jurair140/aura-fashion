@@ -15,7 +15,7 @@ function ProductItem({ id, image, name, price }) {
       <div className='overflow-hidden'>
         <img
           src={previewImage}
-          className='hover:scale-110 transition ease-in-out h-[350px]'
+          className='hover:scale-110 transition ease-in-out h-48 md:h-[350px]'
           alt={name}
         />
       </div>

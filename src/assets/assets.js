@@ -74,7 +74,11 @@ export const assets = {
     stripe_logo,
     cross_icon,
     p_img12,
-    p_img7
+    p_img7,
+    p_img37,
+    p_img39,
+    p_img31,
+    p_img2_2,
 
 }
 

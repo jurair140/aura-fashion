@@ -3,6 +3,7 @@ import { assets } from '../assets/assets'
 import { ShopContext } from '../context/ShopContext'
 import Title from '../components/Title'
 import Productitem from '../components/ProductItem'
+import { useLocation } from 'react-router-dom'
 
 function Collection() {
 
@@ -12,6 +13,16 @@ function Collection() {
   const [category,setCategory] = useState([])
   const [subCategory,setSubCategory] = useState([])
   const [sortType,setSortType] = useState('relevent')
+
+  const location = useLocation();
+  const searchParams = new URLSearchParams(location.search);
+  const subParam = searchParams.get('sub');
+
+  useEffect(() => {
+    if (subParam) {
+      setSubCategory([subParam]);
+    }
+  }, [subParam]);
 
   const toogleCategory = (e) => {
 
@@ -91,7 +102,7 @@ function Collection() {
     <>
     <div className='flex flex-col sm:flex-row gap-1 sm:gap-10 border-t'>
       {/* we create here filter obtion and it 2 filter main and sub */}
-      <div className='min-w-60'>
+      <div className='min-w-60 disabled:'>
         <p className='my-2 text-xl flex items-center gap-2 cursor-pointer' onClick={()=>setShowFilter(!showFilter)}>FILTERS
           <img src={assets.dropdown_icon} className={`h-3 sm:hidden ${showFilter ? 'rotate-90' : ''}`} alt="" />
         </p>
