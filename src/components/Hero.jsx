@@ -15,11 +15,11 @@ function Hero() {
   return (
     <>
       {/* Collection section at the top */}
-      <div className=" md:px-8 h-screen flex items-center  bg-white">
+      <div className=" md:px-8 h-[90vh] flex items-center  bg-white">
         {/* Mobile slider */}
       
 
-      <div className="flex gap-4 overflow-x-auto md:hidden pb-10">
+      <div className="flex gap-4 overflow-x-auto lg:hidden pb-10">
           {collections.map((item, index) => (
             <Link to={item.path} key={index} className="min-w-[300px]">
               <div className="w-full h-full  overflow-hidden shadow-md">
@@ -35,9 +35,9 @@ function Hero() {
         </div>
 
         {/* Desktop grid */}
-        <div className="hidden md:grid grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="hidden lg:grid grid-cols-2 lg:grid-cols-4 gap-6">
           {collections.map((item, index) => (
-            <Link to={item.path} key={index}>
+            <Link to={item.path} key={index} >
               <div className="w-full h-full  overflow-hidden shadow-lg group">
                 <img
                   src={item.img}

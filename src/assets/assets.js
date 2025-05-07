@@ -51,6 +51,7 @@ import contact_img from './contact_img.png'
 import razorpay_logo from './razorpay_logo.png'
 import stripe_logo from './stripe_logo.png'
 import cross_icon from './cross_icon.png'
+import percent_icon from './percent_icon.png'
 import hero_video from './hero-video.mp4'
 
 export const assets = {
@@ -79,6 +80,7 @@ export const assets = {
     p_img39,
     p_img31,
     p_img2_2,
+    percent_icon,
 
 }
 
